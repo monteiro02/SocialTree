@@ -1,0 +1,80 @@
+
+body {
+    background: #444;
+    padding: 0;
+    margin: 0;
+}
+
+.main {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.conteiner {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    background: #333;
+    padding: 26px 14px;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+#perfil {
+    width: 150px;
+    /* definir a largura da imagem */
+    height: 150px;
+    /* definir a altura da imagem */
+    border-radius: 50%;
+    /* tornar a imagem circular usando bordas arredondadas */
+    object-fit: cover;
+    /* redimensionar a imagem para preencher o espaço disponível sem distorcer a proporção */
+    border: 3px solid #BB99DD;
+
+}
+
+
+.links {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.button {
+    /* display: block; /* torna o elemento um bloco */
+    background-color: #7159c1;
+    color: #222; 
+    font-size: 16px;
+    padding: 10px 90px;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+    text-align: center; /* centraliza o texto dentro do botão */
+    text-decoration: none; /* remove a sublinhado padrão do link */
+    font-family: 'Poppins', cursive;
+    margin-bottom: 10px;
+    
+}
+
+.button:hover {
+    background-color: #BB99DD;
+}
+
+
+.icons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.social {
+    margin-right: 10px;
+}
+
+
+
